@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: ueberzeit
+  thymeleaf:
+    check-template: true
+    check-template-location: true
+    enabled: true
+    prefix: classpath:/templates/
+    suffix: .html
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: <see application-local.yml>
+            client-secret: <see application-local.yml>
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ueberzeit
+    username: <see application-local.yml>
+    password: <see application-local.yml>
+  jpa:
+    hibernate:
+      ddl-auto: update
