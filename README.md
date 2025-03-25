@@ -1,5 +1,7 @@
 # Ǖberzeit
+Track your overtime
 
+![screenshot](etc/screenshot.png)
 
 # Dependencies
 * Java >= 23
